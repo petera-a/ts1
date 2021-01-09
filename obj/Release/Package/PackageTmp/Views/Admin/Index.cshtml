@@ -1,0 +1,31 @@
+﻿@model TS_WebApp.Models.ViewModels.AdminViewModel
+
+@{
+    ViewBag.Title = "Administrator view";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    
+}
+
+<h1>Administration panel</h1>
+
+<h2>Currently existing teams:</h2>
+<ul>
+    @foreach (var team in Model.Teams)
+    {
+        <li>@team.TeamName</li>
+    }
+</ul>
+
+<h2>Currently existing devices:</h2>
+@if (Model.Devices.Any())
+{
+    <ul>
+        @foreach (var team in Model.Devices)
+        {
+            <li>@team.DeviceId</li>
+        }
+    </ul>
+} else
+{
+    <i>No devices have been registered yet.</i>
+}

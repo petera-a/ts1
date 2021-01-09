@@ -1,0 +1,35 @@
+﻿body {
+    padding:50px;
+    margin:0;
+    width:100vw;
+    height:100vh
+}
+
+#app {
+    color: white;
+    position: relative;
+    background-image: url('/Resources/Images/town.png');
+    background-size: contain;
+    background-color: navy;
+    width: 1400px;
+    height: 841px;
+    margin: 0 auto;
+}
+
+.window{
+    transition:all 1s ease-in;
+    display:block;
+    position:absolute;
+    width:50px;
+    height:50px;
+    background-color:navy;
+    top:0;
+    left:0;
+}
+
+.active-window {
+    background-color: yellow;
+    box-shadow: 1px 1px 19px 8px rgba(255,255,0,0.75);
+    -webkit-box-shadow: 1px 1px 19px 8px rgba(255,255,0,0.75);
+    -moz-box-shadow: 1px 1px 19px 8px rgba(255,255,0,0.75);
+}

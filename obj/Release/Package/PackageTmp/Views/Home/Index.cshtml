@@ -1,0 +1,9 @@
+﻿@{
+    ViewBag.Title = "TS1";
+}
+
+<div id="app">   
+    <div v-for="window in windows" class="window" v-bind:class="{ 'active-window' : window.isOn }" v-bind:style="window.style">
+
+    </div>
+</div>

@@ -1,0 +1,22 @@
+[
+  {
+    "applicationId": "0d405341-5d7a-4d09-b97c-fc4f722d924e",
+    "messageSource": "telemetry",
+    "deviceId": "2dn856yw2qb",
+    "CreatedOn": "2021-01-03T16:26:00.000Z",
+    "telemetry": {
+      "Bright Bulb ID": 2,
+      "Counter": 0
+    }
+  },
+  {
+    "applicationId": "0d405341-5d7a-4d09-b97c-fc4f722d924e",
+    "messageSource": "telemetry",
+    "deviceId": "1h7r1llv1im",
+    "CreatedOn": "2021-01-03T16:25:00.000Z",
+    "telemetry": {
+      "Bright Bulb ID": 1,
+      "Counter": 0
+    }
+  }
+]
